@@ -8343,6 +8343,21 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.example1 {
+  background-color: #bcb0d1;
+  color: #000; }
+
+.example2 {
+  background-color: #4d487d;
+  color: #fff; }
+
+.example3 {
+  background-color: #1c1024;
+  color: #fff; }
+
+.navbar, .footer {
+  background-color: #494c7f !important; }
+
 
 .container-fluid,
 .container-sm,
@@ -8352,21 +8367,6 @@ textarea.form-control-lg {
 .container-xxl {
   width: 100%;
   height: auto; }
-
-.example1 {
-  background-color: #bcb0d1;
-  color: #000; }
-
-.example2 {
-  background-color: #4d487d;
-  color: #FFF; }
-
-.example3 {
-  background-color: #1c1024;
-  color: #FFF; }
-
-.navbar, .footer {
-  background-color: #494c7f !important; }
 
 .img {
   height: 30px;
