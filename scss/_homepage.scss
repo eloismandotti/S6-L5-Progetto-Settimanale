@@ -1,0 +1,48 @@
+
+// colori di background che vengono passati come proprietà alla funzione changeFontColorByBG
+$bg-color-primary: #bcb0d1;
+$bg-color-secondary: #4d487d;
+$bg-color-tertiary: #1c1024;
+
+// mixin usato per raccogliere le regole di uguale valenza per un codice meno ripetitivo e più pulito
+@mixin setColor ($color) {
+    background-color: $color; 
+    color: changeFontColorByBG($color);
+}
+
+// esempi di funzionamento della funzione changeFontColorByBG
+.example1 { 
+    @include setColor($bg-color-primary)
+}
+
+.example2 { 
+    @include setColor($bg-color-secondary)
+}
+
+.example3 { 
+    @include setColor($bg-color-tertiary)
+}
+
+.navbar, .footer {
+    background-color: #494c7f !important;
+}
+
+// estetica 
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    height: 30px;
+    width: auto;
+}
+
+#first-cta{
+    background-image: url("../img/ghibli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5rem;
+}
