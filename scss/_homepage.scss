@@ -23,11 +23,12 @@ $bg-color-tertiary: #1c1024;
     @include setColor($bg-color-tertiary)
 }
 
+
+// estetica 
+
 .navbar, .footer {
     background-color: #494c7f !important;
 }
-
-// estetica 
 
 .container-fluid {
     width: 100%;
